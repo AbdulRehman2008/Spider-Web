@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+:root{
+    --bgc1:black;
+    --logoc:#DB9E30;
+    --nsec:#FFF5D7;
+    --mainhead: "Space Grotesk", sans-serif;
+    --font-weight: 700;
+    --maintext: 700;
+    --tfamily: sans-serif;
+}
+*{
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box  ;
+}
+body{
+    background-color: black;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    inset: 0%;
+    background-image: url(./img/bg.png);
+    background-size: auto;
+    background-position: 50% 40%;
+    /* border: 2px solid red; */
+    height: 80vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: 20%;
+    /* margin: 20px; */
+    padding: 20px;
+    justify-content: start;
+    align-items: center;
+}
+.logo a h1{
+    font-size: 30px;
+    font-weight: 700;
+    
+
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.navb{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.navb li{
+    list-style: none;
+    margin: 20px;
+padding: 20px;
+}
+.navb li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navb li a:hover{
+    color: #FF00C7;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.navb button{
+    padding: 20px;
+    margin: 20px;
+    height: 60px;
+    width: 150px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 700;
+border-radius: 10px;
+}
+.navb button:hover{
+    background-image: linear-gradient(#E918A8,#F88832,#FDAA0D);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.navsec{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navsec h1{ 
+    color: white;
+    font-size: 48px;
+    text-decoration: underline #ffffff ;
+
+}
